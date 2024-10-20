@@ -76,7 +76,7 @@ nav select {
     -webkit-appearance: none;
     appearance: none;
     text-align: center;
-    background-image: url('../assets/svg/dropdownArrow.svg'), url('../assets/svg/lang.svg');
+    background-image: url('https://net-flix-clone-trycatchraunak.vercel.app/assets/svg/dropdownarrow.svg'), url('https://net-flix-clone-trycatchraunak.vercel.app/assets/svg/lang.svg');
     background-repeat: no-repeat, no-repeat;
     background-position: right 8px center, left 8px center;
     background-size: 16px, 18px;
