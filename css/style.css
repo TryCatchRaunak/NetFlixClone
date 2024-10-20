@@ -39,24 +39,77 @@ nav span{
 }
 
 nav div{
+    display: flex;
+    gap: 12px;
     z-index: 10;
 }
+
+nav .btn{
+    width: 78px;
+    height: 34px;
+    background-color: #c11119;
+    color: white;
+    font-family: 'Martel Sans', sans-serif;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+nav select {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    background-color: #1801024d;
+    color: white;
+    width: 124px;
+    height: 34px;
+    border: 1px solid rgba(228, 214, 214, 0.5);
+    border-radius: 5px;
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 0 8px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    text-align: center;
+    background-image: url('../assets/svg/dropdownArrow.svg'), url('../assets/svg/lang.svg');
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 8px center, left 8px center;
+    background-size: 16px, 18px;
+}
+
+nav select option {
+    color: #333;
+    background-color: white;
+    padding: 10px;
+}
+
+nav select::-ms-expand {
+    display: none;
+}
+
+
 .hero {
     font-family: 'Martel Sans', sans-serif;
-    height: 80%;
+    height: 100%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     position: relative;
+    padding: 23px;
 }
 
 .firstHeading{
     text-align: center;
-    font-size: 56px;
+    font-size: 48px;
     font-weight: bolder;
-    max-width: 50vw;
+    max-width: 40vw;
     text-align: center;
     line-height: 1.2;
 }
